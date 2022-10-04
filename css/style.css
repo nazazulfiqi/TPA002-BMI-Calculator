@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid #FF74B1;
+    padding: 50px;
+}
+
+.title h3 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.title span{
+    color: #FF74B1;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px 10px;
+    border: 2px solid #FF74B1;
+}
+
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: 500;
+    background-color: #FF74B1;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.container span{
+    font-weight: 700;
+}
+
+#weight-error{
+    color: #FF74B1;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#height-error{
+    color: #FF74B1;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cr{
+    text-align: center;
+    padding-top: 10px;
+}

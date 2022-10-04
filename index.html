@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <div class="title">
+                <h3>Check your <span>BMI</span></h3>
+                <p>Enter your weight and height below to check your BMI result</p>
+            </div>
+            <div class="field">
+                <div class="berat">
+                    <label for="">Put your weight in here (KG)</label><br>
+                    <input type="text" placeholder="Masukkan Berat" class="input" id="weight"
+                        onkeypress="return hanyaAngka(event)" maxlength="3"><br>
+                    <span id="weight-error"></span>
+                </div>
+                <div class="tinggi">
+                    <label for="">And your height in here (CM)</label><br>
+                    <input type="text" placeholder="Masukkan Tinggi" class="input" id="height"
+                        onkeypress="return hanyaAngka(event)" maxlength="3"><br>
+                    <span id="height-error"></span>
+                </div>
+                <button class="btn" id="btn">Calculate BMI</button>
+            </div>
+            <p>Your BMI is <span id="output"></span> which mean You are <span id="badan"></span></p>
+            <p class="cr">&copy; Naza Zulfiqi - 2022</p>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
